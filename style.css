@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.item-brik {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.box__for-all {
+    position: relative;
+} 
+
+
+
+.first__box {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 60px;
+    height: 280px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.first__color {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+
+.second__box {
+    position: absolute;
+    top: 310px;
+    left: 10px;
+    width: 60px;
+    height: 240px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.second__color {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+
+.q {
+    background: red;
+}
+
+.w {
+    background: yellow;
+}
+
+.e {
+    background: skyblue;
+}
+
+.r {
+    background: black;
+}
+
+.t {
+    background: white;
+}
+
+.a {
+    background: black;
+}
+
+.s {
+    background: blue;
+}
+
+.d {
+    background: blueviolet;
+}
+
+.f {
+    background: white;
+}
+
